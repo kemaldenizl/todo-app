@@ -1,0 +1,86 @@
+.editTodo {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-top:5% ;
+    justify-content: center;  
+}
+
+.modal{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #EDF1D6;
+}
+.modalClose{
+    position: absolute;
+    top:4px;
+    right: 5px;
+    font-size: 1.5rem;
+    color:#40513B;
+    background-color: #EDF1D6;
+    transition: 300ms;   
+}
+.modalClose:hover{
+    cursor: pointer;
+    color: #9DC08B;
+}
+.editTodoForm {
+   width: 100%; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 1rem;
+   background-color: #EDF1D6;
+   border-radius: 1rem;
+}
+.editTodoLabel{
+    background-color: #EDF1D6;
+}
+.editTodoInput{
+    height: 10%;
+    width: 50%;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #9DC08B;
+    border: 1px solid #40513B;
+    border-radius: 10px;
+}
+.editTodoDate{
+    height: 10%;
+    width: 50%;
+    background-color: #9DC08B;
+    border: 1px solid #40513B;
+    border-radius: 10px;
+    padding-left:1rem;
+    padding-right: 0.5rem;
+}
+.editTodoDate::-webkit-calendar-picker-indicator{
+    font-size: 25px;
+    background-image:url(./calendar.png) ;
+}
+.editTodoDate::-webkit-calendar-picker-indicator:hover{
+    cursor: pointer;
+}
+.editTodoButton{
+    height: 10%;
+    width: 50%;
+    background-color: #9DC08B;
+    transition: 500ms;
+    border: 1px solid #40513B;
+    border-radius: 10px;
+}
+.editTodoButton:hover{
+    cursor: pointer;
+    background-color: #609966;
+}
