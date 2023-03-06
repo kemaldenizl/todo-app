@@ -1,0 +1,40 @@
+.todo{
+    display: flex;
+    border: 1px solid #6096B4;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+.todoContent {
+    padding-left: 5px;
+    font-weight: 300;
+}
+.todoContentDate {
+    font-weight: 300;
+}
+.todoIcons {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-right: 5px;
+}
+.icon:hover {
+    cursor: pointer;
+}
+
+.iconPencil {
+    color: cornflowerblue;
+    transition: 300ms;
+}
+.iconPencil:hover {
+    color: rgb(0, 89, 255);
+    
+}
+.iconX {
+    color: red;
+    transition: 300ms;
+}
+.iconX:hover{
+    color: darkred;
+}
